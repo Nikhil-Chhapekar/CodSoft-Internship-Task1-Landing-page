@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0a0a0a;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+#nav {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+#nav-part3 {
+    display: flex;
+    align-items: center;
+}
+
+#nav-part3 button {
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 50px;
+}
+#nav p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#main h1 {
+    top: 30%;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#main #left-img {
+
+    height: 240px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#main #right-img {
+    height: 240px;
+    width: 200px;
+    position: absolute;
+    bottom: 10%;
+    right: 7%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h5 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 25px;
+}
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-part2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #nav-part3 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #main h1 {
+        font-size: 60px;
+    }
+
+    #main h1 span {
+        font-size: 20px;
+        margin: 0 20px;
+        padding: 15px 20px;
+    }
+
+    #main #left-img {
+        height: 180px;
+        top: 15%;
+        left: 5%;
+    }
+
+    #main #right-img {
+        height: 180px;
+        width: 150px;
+        bottom: 8%;
+        right: 5%;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+}
+#founder-sec{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#founder-sec h1{
+    background-color: rebeccapurple;
+    padding-left: 50%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
